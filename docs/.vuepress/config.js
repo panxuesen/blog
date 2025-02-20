@@ -1,11 +1,13 @@
 import { blogPlugin } from '@vuepress/plugin-blog'
 import { defaultTheme } from '@vuepress/theme-default'
+// import { recoTheme } from 'vuepress-theme-reco'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en-US',
-  base: '/blog/',
+  // base: '/blog/',
+  base: '/',
   title: 'VuePress',
   description: 'My first VuePress Site',
 

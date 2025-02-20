@@ -39,4 +39,8 @@ next-env.d.ts
 /.vscode/
 
 # compile
-/dist/
+dist
+docs/.vuepress/.cache
+docs/.vuepress/.temp
+
+.yarn
